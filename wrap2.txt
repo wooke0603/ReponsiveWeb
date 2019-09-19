@@ -1,0 +1,38 @@
+<div id="self_introduction">
+        <h3>Responsive Web Design<br /><span>by JinWook Kim</span></h3>
+
+      </div><!--//self_introduction-->
+
+      <div id="ABOUT">
+        <h4>ABOUT ME</h4>
+        <p>Hello, My name is JinWook Kim.<br/>I'm learning the web design technician course.<br/> In this process, I want to learn HTML5, CSS3, Javascript, jQuery<br/> and work as a front-end developer in the future.<br/> I will be the best Web-Designer.</p>
+      </div><!--//ABOUT-->
+
+      <div id="my_img">
+        <div class="box"></div>
+        <div id="more_menu"><img src="images/1.jpg" alt="³»»çÁø"><br /><a href="#">Learn more</a>
+          <div class="sub">
+            <ul>
+              <li><a href="#wrap" class="dsopen">Design Introduce</a></li>
+              <li><a href="#wrap3" class="ptopen">Portfolio</a></li>
+              <li><a href="#wrap4" class="ecopen">Education</a></li>
+            </ul>
+          </div><!--//sub-->
+        </div>
+      </div><!--//my_img-->
+
+      <div id="ABOUT_info">
+        <p class="name"><span>NAME :</span> Kim Jin Wook</p>
+        <p class="date"><span>DATE OF BIRTH :</span> JUN 3 1998</p>
+        <p class="National"><span>NATIONALITY :</span> Republic of Korea</p>
+        <p class="adress"><span>ADRESS :</span> 15-5 jidongbong-gyegil, yong jin-eub, wanjugun</p>
+        <p class="phone"><span>PHONE :</span> (+82) 10-9558-1138</p>
+        <p class="email"><span>EMAIL :</span> wooke0603@naver.com</p>
+        <div class="icon">
+          <a href="#"><p class="xi-facebook xi-2x"></p></a>
+          <a href="#"><p class="xi-instagram xi-2x"></p></a>
+          <a href="#"><p class="xi-twitter xi-2x"></p></a>
+          <a href="#"><p class="xi-kakaostory xi-2x"></p></a>
+          <a href="#"><p class="xi-kakaotalk xi-2x"></p></a>
+        </div>
+      </div><!--//ABOUT_info-->
