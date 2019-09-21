@@ -1,11 +1,5 @@
 ;(function($){
   $(function(){
-    /*
-    $(".abopen").click(function(){
-      $("#wrap2").css("height","806");
-      $("#wrap2").css("height","0");
-    });
-    */
 
     $(".abopen").click(function(){
       $("#wrap2").addClass("wrap2open");
@@ -19,6 +13,7 @@
     });
 
     $(".dsopen").click(function(){
+      $('#footer_p').css("display","block");
       $("#wrap").addClass("wrapopen");
       $("#wrap2").removeClass("wrap2open");
       $("#wrap3").removeClass("wrap3open");
@@ -49,13 +44,8 @@
       $("footer").css("height","0");
     });
 
-$("#my_img #more_menu").hover(function(){
-$(".sub").css("visibility","visible")
-},function(){
-$(".sub").css("visibility","hidden");
-});
-
   $(".all").click(function(){
+    $('#footer_p').css("display","none");
     $("#wrap2").addClass("wrap2open");
     $("#wrap").addClass("wrapopen");
     $("#wrap3").addClass("wrap3open");
@@ -64,21 +54,17 @@ $(".sub").css("visibility","hidden");
     $("footer").css("height","70");
   });
 
-$(".menu_open").click(function(){
-  $(".sub2").toggleClass("m_open");
-  $("#logo").toggleClass("logo_out");
-});
-
-$(function(){
-  $('html').mouseenter(function(){
-    $('#skills p').addClass('iopen');
+  $('#m_gnb').click(function(){
+    $('#gnb').toggleClass('gnbon');
+    $('#logo').toggleClass('logoon');
   });
-  $('html').mouseleave(function(){
-    $('#skills p').removeClass('iopen');
+
+  $('.Cmbtn').click(function(){
+    $('.Cmbtn').toggleClass('btnon');
+    $('#myinfo').toggleClass('infoon');
+    $('#myintro').toggleClass('introon');
+    $('#me').toggleClass('meon');
   });
-});
-
-
 
   });
 })(jQuery);

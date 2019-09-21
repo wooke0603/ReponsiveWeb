@@ -2,18 +2,17 @@
 <html lang="ko" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width"/>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="http://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css">
     <!--<script src="js/jquery.scrollToGiveClass.js"></script>-->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="js/script.js"></script>
-    <title>Responsive Web Design</title>
+    <title>JinukKim_PortFolio</title>
   </head>
   <body>
     <header>
       <div id="logo">
-        <h1><a href="">Responsive Web Design</a></h1>
+        <h1><a href="">JinukKim_PortFolio Site</a></h1>
       </div><!--//logo-->
 
       <nav id="gnb">
@@ -27,7 +26,9 @@
       </nav><!--//gnb-->
 
       <nav id="m_gnb">
-        <a href="#" class="menu_open xi-bars xi-2x"></a>
+        <div class="inner">
+          <a href="#" class="menu_open xi-bars xi-2x"></a>
+        </div>
       </nav>
 
       <div class="sub2">
@@ -57,31 +58,93 @@
         </div><!--//sns-->
 
         <div id="skills">
-          <div id="html"><br />HTML <a class="bar"><p></p></a> 80%</div>
-          <div id="css"><br />CSS <a class="bar"><p></p></a> 85%</div>
-          <div id="scss"><br />SCSS <a class="bar"><p></p></a> 95%</div>
-          <div id="js"><br />JAVASCRIPT <a class="bar"><p></p></a> 85%</div>
-          <div id="ps"><br />PHOTOSHOP <a class="bar"><p></p></a> 50%</div>
+          <div id="html"><br />HTML <a class="bar"><p class="underbar"></p></a> 80%</div>
+          <div id="css"><br />CSS <a class="bar"><p class="underbar"></p></a> 85%</div>
+          <div id="scss"><br />SCSS <a class="bar"><p class="underbar"></p></a> 95%</div>
+          <div id="js"><br />JAVASCRIPT <a class="bar"><p class="underbar"></p></a> 85%</div>
+          <div id="ps"><br />PHOTOSHOP <a class="bar"><p class="underbar"></p></a> 50%</div>
         </div><!--//skills-->
+        <script src="js/wrapscript.js"></script>
       </div><!--//information-->
-
-
-
+      <div id="footer_p" class="clearfix">
+        <p>Responsive Web Design &copy; 2019. ALL RIGHTS RESERVED.<br /><strong>
+        본 사이트는 상업적 목적이 아닌 개인 포트폴리오 사이트로 제작되었습니다.</strong></p>
+      </div>
     </div><!--//wrap-->
 
     <div id="wrap2">
+      <div id="myinfo">
+        <div id="myimg">
+          <img src="images/1.jpg" alt="내사진">
+        </div><!--//myimg-->
 
+        <nav id="menu">
+          <ul class="allwrap-list">
+            <li><a href="#">About Me</a>
+              <div class="subMenu">
+                <ul>
+                  <li><a href="#">Design Introduce</a></li>
+                  <li><a href="#">Portfolio</a></li>
+                  <li><a href="#">Education</a></li>
+                  <li><a href="#">View all</a></li>
+                </ul>
+              </div><!--//subMenu-->
+            </li>
+          </ul>
+        </nav><!--//menu-->
+      </div><!--//myinfo-->
+
+      <div id="myintro">
+        <div id="profile">
+          <h3>Profile</h3>
+          <p class="name">이름 : 김진욱</p>
+          <p class="old">나이 : 22세 (1998.06.03)</p>
+          <p class="National">국적 : 대한민국</p>
+          <p class="adress">전라북도 전주시</p>
+          <p class="phoneNum">연락처 : 010-9558-1138</p>
+          <p class="email">이메일 : wooke0603@naver.com</p>
+        </div><!--//profile-->
+
+        <div id="sns">
+          <a href="https://www.facebook.com/godjinwook" target="_blank"><p class="xi-facebook xi-2x"></p></a>
+          <a href="https://www.instagram.com/jinukkim_/" target="_blank"><p class="xi-instagram xi-2x"></p></a>
+          <a href="https://open.kakao.com/o/svuOU4vb" target="_blank"><p class="xi-kakaotalk xi-2x"></p></a>
+          <a style="cursor:pointer"><p class="xi-twitter xi-2x"></p></a>
+          <a style="cursor:pointer"><p class="xi-kakaostory xi-2x"></p></a>
+        </div><!--//sns-->
+
+        <div id="history">
+          <h3>History</h3>
+          <p class="University">2017.03~2019.02 : 서해대학교 세무뮬류과 전공</p>
+          <p class="Academy">2019.04~2019.10 : 웹디자인기능사 과정평가형 - [이젠컴퓨터아트서비스학원]</p>
+          <p class="Lisense">2019.08 : GTQ1급 자격증 취득</p>
+          <p class="Lisense">2019.10 : </p>
+        </div><!--//history-->
+        <div id="lisense">
+          <h3>Lisense</h3>
+          <p class="Lisense">(사단법인)합기도 4단</p>
+          <p class="Lisense">(사단법인)경호무술 4단</p>
+          <p class="Lisense">(사단법인)경호원 자격증 3급</p>
+          <p class="Lisense">태권도 1단</p>
+          <p class="Lisense">GTQ 1급 자격증</p>
+          <p class="Lisense">2종 보통 운전면허</p>
+          <p class="Lisense">SMT 전자 부품 장착 기능사</p>
+        </div><!--//lisense-->
+      </div><!--//myintro-->
+      <div id="me">
+        <h3>"미래지향적인 사람"</h3>
+        <p><strong>"스펙을 이기는 나만의 스토리를 만들자"</strong>라는 신념으로 다양한 경험을 해보기 위해 수 많은 온라인강의를 결제하고 듣고 공부했습니다. 그 경험들을 바탕으로 수많은 진로 고민을 한 끝에 <strong>프론트엔드 개발의 길</strong>에 도전하기로 했습니다. 짧지만 많은 것을 배울 수 있었던 <strong>6개월의 웹디자인기능사 과정평가형</strong>을 통해 제 흥미와 적성에 맞는 일을 찾게되어 무척이나 기쁘고 설렙니다. 습득력과 응용력이 좋아 앞으로가 기대된다는 선생님의 말씀을 원동력삼아 끝없는 배움의 길을 걷고자 합니다. 하나를 가르쳐주면 열을 아는, 알려주지 않아도 스스로 답을 찾아낼 줄 아는 신입 웹 퍼블리셔가 되겠습니다.</p>
+      </div><!--//me-->
+      <button type=button class="Cmbtn">Click Me!</button>
     </div><!--//wrap2-->
+    <script src="js/wrap2script.js"></script>
 
     <div id="wrap3">
       <div id="wrap3_bg"><img src="images/wrap3_bg.jpg" alt="중앙배경"></div>
-      <ul>
-        <li><a href="http://skin-skin18.kju2547.cafe24.com" target="_blank"><img src="images/coffeejoy.jpg" alt="커피조이"><br />http://skin-skin18.kju2547.cafe24.com</a></li>
-        <li><a href="http://skin-skin13.kju2547.cafe24.com" target="_blank"><img src="images/minihouse.jpg" alt="미니하우스"><br />http://skin-skin13.kju2547.cafe24.com</a></li>
-        <li><a href="http://kju2547.cafe24.com/site4/index.html" target="_blank"><img src="images/responsive.jpg" alt="반응형웹"><br />http://kju2547.cafe24.com/site4/index.html</a></li>
-        <li><a href="http://skin-skin13.kju2547.cafe24.com" target="_blank"></a></li>
-        <li><a href="http://skin-skin13.kju2547.cafe24.com" target="_blank"></a></li>
-        <li><a href="http://skin-skin13.kju2547.cafe24.com" target="_blank"></a></li>
+      <ul class="portfolio">
+        <li><a href="http://skin-skin18.kju2547.cafe24.com" target="_blank"><img src="images/coffeejoy.jpg" alt="커피조이" id="pfimg"><br /><p class="off">PORTFOLIO<br /><strong># 김진욱 # 포트폴리오</strong></p></a></li>
+        <li><a href="http://skin-skin13.kju2547.cafe24.com" target="_blank"><img src="images/minihouse.jpg" alt="미니하우스" id="pfimg"><br /><p class="off">PORTFOLIO<br /><strong># 김진욱 # 포트폴리오</strong></p></a></li>
+        <li><a href="http://kju2547.cafe24.com/site4/index.html" target="_blank"><img src="images/responsive.jpg" alt="반응형웹" id="pfimg"><br /><p class="off">PORTFOLIO<br /><strong># 김진욱 # 포트폴리오</strong></p></a></li>
       </ul>
     </div><!--//wrap3-->
 
@@ -98,7 +161,8 @@
     </div><!--//wrap4-->
 
     <footer>
-      <p>Responsive Web Design &copy; 2019. ALL RIGHTS RESERVED.</p>
+      <p>Responsive Web Design &copy; 2019. ALL RIGHTS RESERVED.<br /><strong>
+      본 사이트는 상업적 목적이 아닌 개인 포트폴리오 사이트로 제작되었습니다.</strong></p>
     </footer><!--//footer-->
   </body>
 </html>
